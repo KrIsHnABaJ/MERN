@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siddhi's HTML Task-5</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            flex-direction: column;
+
+        }
+
+        table,
+        tr,
+        td {
+            border-collapse: collapse;
+            padding: 3px;
+
+        }
+
+        .heading {
+            color: blue;
+        }
+
+        .name {
+            padding-right: 70px;
+        }
+
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1 align="center">
+        <font color="blue">Registration form</font>
+    </h1>
+    <table border="1" cellspacing="3" align="center">
+        <tr style="font-weight: bold;">
+            <div>
+                <td align="center">
+                    FirstName:
+                </td>
+                <td><input type="text" name="fname" required size="72"></td>
+            </div>
+        </tr>
+        <tr style="font-weight: bold;">
+            <td align="center">LastName:</td>
+            <td><input type="text" name="lname" required size="72"></td>
+        </tr>
+        <tr style="font-weight: bold;">
+            <td align="center">Email: </td>
+            <td><input type="email" name="email" required size="72"></td>
+        </tr>
+        <tr style="font-weight: bold;">
+            <td align="center">Password</td>
+            <td><input type="password" name="password" required size="72"></td>
+
+        </tr>
+        <tr style="font-weight: bold;">
+            <td align="center">Re-enter Password: </td>
+            <td><input type="password" name="password" required size="72"></td>
+        </tr>
+        <tr lable="gender" name="gender">
+            <td align="center" style="font-weight: bold;"> Gender: </td>
+            <td>
+                <table>
+                    <tr>
+                        <td>
+                            <input type="radio" name="gender">Male
+                        </td>
+
+                    </tr>
+
+
+
+                    <tr>
+
+                        <td>
+                            <input type="radio" name="gender">Female
+                        </td>
+                    </tr>
+
+        </tr>
+    </table>
+
+
+    </td>
+
+
+    </tr>
+    <tr style="font-weight: bold;">
+        <td align="center">Age: </td>
+        <td><input type="text" name="age" required size="72"></td>
+    </tr>
+    <tr style="font-weight: bold;">
+        <td align="center"> Phone Number: </td>
+        <td><input type="text" name="phonenumber" required size="72"></td>
+    </tr>
+    <tr style="font-weight: bold;">
+        <td align="center">Address: </td>
+        <td><textarea name="mytext" cols="59" rows="10"></textarea></td>
+    </tr>
+    <tr style="font-weight: bold;">
+        <td align="center">State</td>
+        <td><input type="text" name="text" required size="72"></td>
+    </tr>
+    <tr style="font-weight: bold;">
+        <td align="center">Country:</td>
+        <td style="font-weight: bold;">
+            <select>
+                <option value="choose your option">Choose your country</option>
+                <option value="India">India</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value=" Japan">Japan</option>
+                <option value="China">China</option>
+                <option value="Sri Lanka">Sri lanka</option>
+                <option value="United Kingdom">United Kingdom</option>
+                <option value="U.S.A">U.S.A</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td align="center" style="font-weight: bold;">Languages Known:</td>
+        <td> <input type="checkbox">English <input type="checkbox">Kannada <input type="checkbox"> Hindi <input
+                type="checkbox">Telugu </td>
+
+    </tr>
+
+    <td colspan="2">
+        <input type="checkbox"> Hearby I declare all the given details are true
+    </td>
+    </tr>
+    <tr>
+
+        <td align="right" colspan="2">
+            Log in to <a href="https://ethnus.com/">Ethnus</a> website
+        </td>
+    </tr>
+    </table>
+    <br>
+    <div align="center">
+        <input type="submit" value="Register">
+
+    </div>
+
+</body>
+
+</html>
